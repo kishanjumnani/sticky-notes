@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stickynotes.css">
+</head>
+<body>
+    <div class="wrap">
+        <div class="createnotes">
+            <div class="container">
+                <div class="notesarea">
+                <textarea id="notesareat" placeholder="  // write your notes" cols="300" rows="10"></textarea>
+                <div class="colorbar">
+                    <div class="bgcolor">
+                    <label for="colorbar">Background Color</label>
+                   
+                    <input type="color" id="colorbar">
+                    </div>
+                    <label for="textcolorbar">Text Color</label>
+                    <input type="color" id="textcolorbar">
+                </div>
+                </div>
+                <div class="buttonarea">
+                <button class="add" id="add">Add Note</button>
+                </div>
+            </div>
+        </div>
+        <div class="editnotes">
+            <h2>Stickynotes</h2>
+            <div class="stickynotescontiner"></div>
+        </div>
+    </div>
+    <script src="stickynotes.js"></script>
+</body>
+</html>
